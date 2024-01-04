@@ -39,3 +39,13 @@ var d = String(100);
 var f = String(true);
 var p=Boolean(10);
 console.log(p);
+
+
+var cc = 100 + true
+console.log(cc);
+
+var bb =    Boolean(10);
+console.log(bb);
+
+var dd =    String(true);
+console.log(dd);
