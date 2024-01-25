@@ -1,0 +1,34 @@
+function Student(id, name, marks){
+
+    this.id = id;
+
+    this.name = name;
+
+    this.marks = marks;
+
+    this.display = function(){
+
+        console.log(`ID: ${this.id}, Name: ${this.name}, Marks: ${this.marks}`);
+
+    }
+
+}
+const stew = new Student(11, "Stew", 99);
+console.table(stew);
+const jenny = new Student(22, "Jenny", 88);
+console.table(jenny);
+jenny.display();
+stew.display();
+const elon=new Student(33,"Elon",78)
+console.log(elon);
+
+class User {
+
+}
+// instanceof operator
+console.log(elon instanceof Student);
+console.log(stew instanceof User);
+
+Student.prototype.country = "INDIA";
+console.log(elon.country);
+console.log(jenny.country);

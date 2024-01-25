@@ -7,7 +7,8 @@ console.log("Original Array==> ", arrayNum);
  console.log("After removing duplicate element from array is =>", uniqueArray );
 
 
- console.log(`----------------------------------step 2--------------------------------`);
+
+    
  const str = "How are you mate";
  console.log(`Original ==> "${str}"`);
  let resultString = "";
@@ -26,4 +27,14 @@ console.log("Original Array==> ", arrayNum);
  console.log(`---------------------------------------End-------------------------------------------`);
  
 
-  
+  console.log(`---------------------------------------------Remove duplicate ele using for----------------------------------------------------`);
+const array1Num=[11,3,4,11,4,7,3];
+console.log(`Original array is :=> [${array1Num}]`);
+for ( let i = 0; i < array1Num.length ; i++) {
+    for( let j=i+1 ; j <= array1Num.length; j++){
+        if(array1Num[i]==array1Num[j]){
+            array1Num.splice(j,1)
+        }
+    }
+}
+ console.log(`After removing Duplicate element from array is => [${array1Num}]`);
