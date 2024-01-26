@@ -1,0 +1,50 @@
+.container{
+    max-width:260px;
+    border: 2px solid black;
+    padding: 2px;
+    border-radius: 4px;
+background-color: cadetblue;
+margin: 0 auto;
+}
+h2{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-left: 28px;
+    font-size: 20px;
+    color: white;
+}
+.display{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    height: 35px;
+    background-color: rgb(35, 74, 75);
+    width: 249px;
+    height: 30px;
+    border-radius: 2px;
+    margin-left: 3px;
+    overflow: hidden;
+    border: 1px solid rgb(255, 249, 249);
+    font-family: 'Josefin Sans', sans-serif;   
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+button{
+    width: 60px;
+    padding: 15px;
+    margin: 0.5px,0.5px ;
+    box-shadow: none;
+   border-radius: 2px;
+    margin-bottom: 2px;
+    border: 1px solid black;
+    margin-left: 1.5px;
+}
+button:hover{
+    background-color: rgb(205, 213, 213);
+    border: 2px black solid;
+    border-radius: 3px;
+}
+@media screen and (min-width: 256px) {
+    .container {
+      width: 80%;
+    }
+  }
